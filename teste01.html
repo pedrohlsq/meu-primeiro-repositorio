@@ -1,0 +1,76 @@
+<html>
+    <head>
+     <title> Aula 01</title>
+     <script>
+        alert("Olá, Pedro");
+        // "alert" Cria um alerta na página
+        function mostrarMensagem(){
+            //Mostra uma mensagem na tela
+            let nome = document.getElementById("txtNome").value;
+
+            alert("Oi, " + nome + " tudo bem ?");
+        }
+        //sintaxe de uma ação: function nomeDaFuncao()
+     </script>
+     <!--Indica que tudo que estiver dentro da tag "script" corresponde a JavaScipt-->
+    </head>
+    <body>
+            <h1> Meu primeiro HTML Aula 01</h1>
+            <!--Comentário: TAG H1 é um título maior-->
+            <h2> Meu primeiro HTML</h2>
+            <h3> Meu primeiro HTML</h3>
+            <p> Teste</p>
+            <a href="https://youtube.com.br" target="_blank">Clique Aqui</a>
+
+            <h1> Lista de Compras/Tabela Aula 02</h1>
+            
+            <ul type="square">
+                <!-- TAG "ul" abre uma lista -->
+                 <!-- ATRIBUTO "type=" altera o símbolo de listagem da lista -->
+                <li>Coca Cola</li> 
+                <li>Pepsi</li>
+                <li>Fanta</li>
+            </ul>
+
+            <ol type="1">
+                <!-- "ol" abre uma lista NUMERADA -->
+            <!-- teste os types A, I ou 1-->
+                <li>H1</li>
+                <li>H2</li>
+                <li>H3</li>
+            </ol>
+            <br />
+            <!--"br" cria um espaçamento entre as linhas-->
+            <table border="1" width="80%">
+                <!--"table" cria uma tabela-->
+                <!--"border" define a espessura da linha-->
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+                <!--"tr" cria LINHAS-->
+                <!--"td" cria COLUNAS-->
+            </table>
+
+            <br />
+
+            <h1>Caixa de nomes Aula 03</h1>
+
+            <img src="" />
+            <!--Adiciona uma imagem na página-->
+            <input type="text" name="nome" id="txtNome" placeholder="Digite seu nome" />
+
+            <input type="button" value="Enviar" onclick="mostrarMensagem()" />
+    </body>
+</html>
